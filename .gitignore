@@ -1,0 +1,76 @@
+# 临时文件夹
+._____temp/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 模型文件（保留文件夹，忽略内容）
+model/*
+!model/.gitkeep
+
+# 输出文件夹（保留文件夹，忽略内容）
+output/*
+!output/.gitkeep
+
+# Qwen 文件夹（完全忽略）
+Qwen/
+
+# SwanLab 日志（完全忽略）
+swanlog/
+
+# 数据文件（保留文件夹，忽略内容）
+data/*
+!data/.gitkeep
+
+# 配置文件（保留所有内容）
+# 注意：config 文件夹会被保留，不需要忽略规则
+
+# 训练脚本（保留）
+# train.py 会被保留，不需要忽略规则
+
+# utils 文件夹（保留所有内容）
+# utils 文件夹会被保留，不需要忽略规则
+
+# IDE 相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# 环境相关
+venv/
+env/
+ENV/
+.venv/
+.env/
+*.egg-info/
+dist/
+build/
+
+# 日志文件
+*.log
+
+# 数据集缓存
+*.cache
+*.h5
+*.parquet
+
+# 检查点文件
+*.ckpt
+*.bin
+*.safetensors
+*.pth
+*.pt
+
+# 其他临时文件
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
